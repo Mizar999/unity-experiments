@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sokoban_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+    totalSpriteSurfaceArea: 417792
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -44902015928628579, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3076950491699830462, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -2450718764939449580, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -6855883826731833834, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8027242590777032615, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3343484198480044465, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 9106956010813669412, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3985082246526697983, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -392773566051144030, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8728062319804459290, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -7036563650413593393, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -7912993805941420779, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -1102979116707809977, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2697418822820219229, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -2825972010616498781, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3630042656778381538, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5010077720450864550, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3071792555765201431, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3123757348743983880, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 1420553384129054121, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -4853953833533007277, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 6504045059927473481, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7568154213217855757, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3555691224461769239, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8816632780346915940, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 6091824478418461829, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5719981432060720600, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8574987014424177377, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -1455704895385541215, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8114352708271304802, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -6204270145054293705, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 4156153944514354537, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -5661805994554808076, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 4782136381872966242, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8124114479522095885, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8555577645139719485, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8834164565351202307, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5074877634790312844, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7102214423301287387, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2202509192968584800, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8341724159977660849, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -7385177909355949372, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -1691594109404099198, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 4188604713917215235, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -9077095840931548026, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 6121384624980854058, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5280489789350460570, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3775099722501479073, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3104514873930534044, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8228998262170127718, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2551662502476010193, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8577122472583538322, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -2028907265544581882, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3121823867118871657, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -4081297577898048959, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 550395194723088025, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2088013472947204536, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 1075030517347874136, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 1537805370837766589, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2497256981433681650, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 826621668361136519, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 4949897252213625408, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -946438968545988868, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -4304504849997730142, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3411095637994358919, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -5089210074869706654, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -4204629617738141698, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -2437718917018756681, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7736831310227857829, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -1491336794150978037, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8294056168418039787, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -9222420229531917124, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 856522927874106351, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8338290497169090538, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5661783202620509441, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3215205608200213238, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -5183334069164098908, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 3134101062325065173, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5348064402577032810, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 9096071749789753167, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -8088131206991054513, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 8912992359216410942, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 394185322325079398, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 335179344248714417, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3171506406837266378, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2476958811810684477, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -4371388067217961559, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 5205853499892367697, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 462984300992753494, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -1310478945318679770, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -816797238160552664, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2973449733264947134, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 1090692888063570597, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -6099974456976254806, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -6132242213592981901, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7295123433877938682, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7068033227038437204, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -3108004211804925429, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 7429777041600454603, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 4049258564805846171, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: -7793397243113446036, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  - {fileID: 2153800999392341272, guid: 55ae47ffbec83d346b846cf2ee2dd225, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sokoban_tilesheet_96
+  - sokoban_tilesheet_97
+  - sokoban_tilesheet_94
+  - sokoban_tilesheet_95
+  - sokoban_tilesheet_89
+  - sokoban_tilesheet_92
+  - sokoban_tilesheet_88
+  - sokoban_tilesheet_93
+  - sokoban_tilesheet_90
+  - sokoban_tilesheet_91
+  - sokoban_tilesheet_29
+  - sokoban_tilesheet_28
+  - sokoban_tilesheet_81
+  - sokoban_tilesheet_80
+  - sokoban_tilesheet_83
+  - sokoban_tilesheet_23
+  - sokoban_tilesheet_98
+  - sokoban_tilesheet_82
+  - sokoban_tilesheet_22
+  - sokoban_tilesheet_18
+  - sokoban_tilesheet_99
+  - sokoban_tilesheet_85
+  - sokoban_tilesheet_21
+  - sokoban_tilesheet_19
+  - sokoban_tilesheet_84
+  - sokoban_tilesheet_20
+  - sokoban_tilesheet_16
+  - sokoban_tilesheet_87
+  - sokoban_tilesheet_27
+  - sokoban_tilesheet_17
+  - sokoban_tilesheet_86
+  - sokoban_tilesheet_26
+  - sokoban_tilesheet_14
+  - sokoban_tilesheet_25
+  - sokoban_tilesheet_15
+  - sokoban_tilesheet_24
+  - sokoban_tilesheet_12
+  - sokoban_tilesheet_13
+  - sokoban_tilesheet_10
+  - sokoban_tilesheet_11
+  - sokoban_tilesheet_100
+  - sokoban_tilesheet_101
+  - sokoban_tilesheet_74
+  - sokoban_tilesheet_75
+  - sokoban_tilesheet_76
+  - sokoban_tilesheet_77
+  - sokoban_tilesheet_67
+  - sokoban_tilesheet_38
+  - sokoban_tilesheet_70
+  - sokoban_tilesheet_66
+  - sokoban_tilesheet_39
+  - sokoban_tilesheet_71
+  - sokoban_tilesheet_65
+  - sokoban_tilesheet_72
+  - sokoban_tilesheet_64
+  - sokoban_tilesheet_73
+  - sokoban_tilesheet_63
+  - sokoban_tilesheet_62
+  - sokoban_tilesheet_58
+  - sokoban_tilesheet_61
+  - sokoban_tilesheet_59
+  - sokoban_tilesheet_60
+  - sokoban_tilesheet_30
+  - sokoban_tilesheet_78
+  - sokoban_tilesheet_31
+  - sokoban_tilesheet_79
+  - sokoban_tilesheet_49
+  - sokoban_tilesheet_32
+  - sokoban_tilesheet_52
+  - sokoban_tilesheet_48
+  - sokoban_tilesheet_33
+  - sokoban_tilesheet_53
+  - sokoban_tilesheet_34
+  - sokoban_tilesheet_50
+  - sokoban_tilesheet_35
+  - sokoban_tilesheet_69
+  - sokoban_tilesheet_51
+  - sokoban_tilesheet_45
+  - sokoban_tilesheet_36
+  - sokoban_tilesheet_68
+  - sokoban_tilesheet_56
+  - sokoban_tilesheet_44
+  - sokoban_tilesheet_37
+  - sokoban_tilesheet_57
+  - sokoban_tilesheet_47
+  - sokoban_tilesheet_54
+  - sokoban_tilesheet_46
+  - sokoban_tilesheet_55
+  - sokoban_tilesheet_41
+  - sokoban_tilesheet_40
+  - sokoban_tilesheet_43
+  - sokoban_tilesheet_42
+  - sokoban_tilesheet_9
+  - sokoban_tilesheet_8
+  - sokoban_tilesheet_3
+  - sokoban_tilesheet_2
+  - sokoban_tilesheet_1
+  - sokoban_tilesheet_0
+  - sokoban_tilesheet_7
+  - sokoban_tilesheet_6
+  - sokoban_tilesheet_5
+  - sokoban_tilesheet_4
+  m_RenderDataMap: {}
+  m_Tag: Sokoban_Atlas
+  m_IsVariant: 0
