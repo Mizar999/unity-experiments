@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private Tilemap _ground;
+    [SerializeField]
+    private Tilemap _objects;
+    [SerializeField]
     private PlayerMovement _playerMovement;
 
     private void Awake()
@@ -28,24 +31,20 @@ public class PlayerController : MonoBehaviour
         _playerMovement.Player.Movement.performed += context => Move(context);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        Debug.Log("Collided");
-    }
-
     private void Move(InputAction.CallbackContext context)
     {
-        Debug.Log("Moving");
         Vector3 direction = (Vector3)context.ReadValue<Vector2>();
-        if (CanMove(direction))
+        Vector3 target = transform.position + direction;
+
+        if (CanMove(target))
         {
-            transform.position += direction;
+            transform.position = target;
         }
     }
 
-    private bool CanMove(Vector3 direction)
+    private bool CanMove(Vector3 target)
     {
-        Vector3Int gridPosition = _ground.WorldToCell(transform.position + direction);
-        return _ground.HasTile(gridPosition);
+        Vector3Int gridPosition = _ground.WorldToCell(target);
+        return !_objects.HasTile(gridPosition) && _ground.HasTile(gridPosition);
     }
 }
