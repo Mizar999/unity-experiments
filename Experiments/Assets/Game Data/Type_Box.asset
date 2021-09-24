@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 754eab39a82095444b474156a6c02933, type: 3}
-  m_Name: Box
+  m_Name: Type_Box
   m_EditorClassIdentifier: 

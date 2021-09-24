@@ -7,14 +7,14 @@ public class TileDataManager : MonoBehaviour
     [SerializeField]
     private Tilemap _map;
     [SerializeField]
-    private List<TileData> _availableData;
+    private List<TileData> _tileData;
 
     private Dictionary<TileBase, TileData> _tileDataLookup;
 
     private void Awake()
     {
         _tileDataLookup = new Dictionary<TileBase, TileData>();
-        foreach (var data in _availableData)
+        foreach (var data in _tileData)
         {
             _tileDataLookup.Add(data.Tile, data);
         }

@@ -5561,9 +5561,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _map: {fileID: 1459725950}
-  _availableData:
-  - {fileID: 11400000, guid: 9912a86bb2f68bf439f881b5b28b5823, type: 2}
-  - {fileID: 11400000, guid: 83793ce0d602cb64b8a866d0ad849613, type: 2}
+  _tileData:
+  - Tile: {fileID: 11400000, guid: da35aff12174bb748b2f2eac2d11529b, type: 2}
+    Type: {fileID: 11400000, guid: fa6f35355a8644e4da29af8d7fc5683e, type: 2}
+    Class: {fileID: 11400000, guid: e5bc750a16cf07a4485a17da456a0e4f, type: 2}
+  - Tile: {fileID: 11400000, guid: 93c51edf58f53e847ad7ca953552c4f3, type: 2}
+    Type: {fileID: 11400000, guid: e6ad19a2b9e0b244c9275212fa2ae734, type: 2}
+    Class: {fileID: 11400000, guid: e5bc750a16cf07a4485a17da456a0e4f, type: 2}
 --- !u!4 &1523902449
 Transform:
   m_ObjectHideFlags: 0
@@ -5640,7 +5644,7 @@ PrefabInstance:
     - target: {fileID: 7877090698156573861, guid: 1b9cc95004548a149b3775ebca958156, type: 3}
       propertyPath: _boxType
       value: 
-      objectReference: {fileID: 11400000, guid: 0b24ab685a0bbbb418dfcedf59572678, type: 2}
+      objectReference: {fileID: 11400000, guid: fa6f35355a8644e4da29af8d7fc5683e, type: 2}
     - target: {fileID: 7877090698156573861, guid: 1b9cc95004548a149b3775ebca958156, type: 3}
       propertyPath: _objects
       value: 
@@ -5648,7 +5652,7 @@ PrefabInstance:
     - target: {fileID: 7877090698156573861, guid: 1b9cc95004548a149b3775ebca958156, type: 3}
       propertyPath: _targetType
       value: 
-      objectReference: {fileID: 11400000, guid: 156af950a96555f4cb596afd621bd1f3, type: 2}
+      objectReference: {fileID: 11400000, guid: e6ad19a2b9e0b244c9275212fa2ae734, type: 2}
     - target: {fileID: 7877090698156573861, guid: 1b9cc95004548a149b3775ebca958156, type: 3}
       propertyPath: _tileDataManager
       value: 
