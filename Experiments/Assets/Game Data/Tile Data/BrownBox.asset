@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f34bed1e450c34591326392c901acc, type: 3}
+  m_Name: BrownBox
+  m_EditorClassIdentifier: 
+  Tile: {fileID: 11400000, guid: da35aff12174bb748b2f2eac2d11529b, type: 2}
+  Type: {fileID: 11400000, guid: 0b24ab685a0bbbb418dfcedf59572678, type: 2}
+  Class: {fileID: 11400000, guid: db7f453825d77314bbe5fa58b2acb166, type: 2}
