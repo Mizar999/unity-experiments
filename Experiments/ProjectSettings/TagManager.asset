@@ -46,6 +46,12 @@ TagManager:
   - name: Ground
     uniqueID: 1620283073
     locked: 0
-  - name: Objects
+  - name: Passable Objects
+    uniqueID: 1022097717
+    locked: 0
+  - name: Blocking Objects
     uniqueID: 4290713619
+    locked: 0
+  - name: Player
+    uniqueID: 3899289759
     locked: 0

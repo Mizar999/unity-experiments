@@ -5,17 +5,9 @@ using UnityEngine.Tilemaps;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private Tilemap _ground;
-    [SerializeField]
-    private Tilemap _objects;
-    [SerializeField]
-    private ObjectType _boxType;
-    [SerializeField]
-    private ObjectType _targetType;
-    [SerializeField]
-    private TileDataManager _tileDataManager;
-    [SerializeField]
     private PlayerMovement _playerMovement;
+    [SerializeField]
+    private MapManager _mapManager;
 
     private void Awake()
     {
@@ -42,26 +34,15 @@ public class PlayerController : MonoBehaviour
         Vector3 direction = (Vector3)context.ReadValue<Vector2>();
         Vector3 target = transform.position + direction;
 
-        if (CanMove(target))
+        if (_mapManager.CanPush(target, direction))
         {
-            transform.position = target;
+            _mapManager.MoveBlockingObject(target, direction);
         }
-    }
-
-    private bool CanMove(Vector3 target)
-    {
-        Vector3Int cellPosition = _ground.WorldToCell(target);
-
-        if (_objects.HasTile(cellPosition))
+        else if (!_mapManager.IsPassable(target))
         {
-            // TODO handle box collision & movement
-            TileData data = _tileDataManager.GetTileData(cellPosition);
-            if (data == null || data.Type == _boxType)
-            {
-                return false;
-            }
+            return;
         }
 
-        return _ground.HasTile(cellPosition);
+        transform.position += direction;
     }
 }

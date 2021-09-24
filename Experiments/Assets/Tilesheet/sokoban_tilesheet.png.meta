@@ -424,7 +424,7 @@ TextureImporter:
       name: sokoban_tilesheet_0
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 448
         width: 64
         height: 64
