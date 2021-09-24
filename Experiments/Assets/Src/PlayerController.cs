@@ -9,6 +9,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Tilemap _objects;
     [SerializeField]
+    private ObjectType _boxType;
+    [SerializeField]
+    private ObjectType _targetType;
+    [SerializeField]
+    private TileDataManager _tileDataManager;
+    [SerializeField]
     private PlayerMovement _playerMovement;
 
     private void Awake()
@@ -44,7 +50,18 @@ public class PlayerController : MonoBehaviour
 
     private bool CanMove(Vector3 target)
     {
-        Vector3Int gridPosition = _ground.WorldToCell(target);
-        return !_objects.HasTile(gridPosition) && _ground.HasTile(gridPosition);
+        Vector3Int cellPosition = _ground.WorldToCell(target);
+
+        if (_objects.HasTile(cellPosition))
+        {
+            // TODO handle box collision & movement
+            TileData data = _tileDataManager.GetTileData(cellPosition);
+            if (data == null || data.Type == _boxType)
+            {
+                return false;
+            }
+        }
+
+        return _ground.HasTile(cellPosition);
     }
 }
