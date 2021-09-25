@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106696300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2327825, y: -0.6556565, z: -9.253571}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
   _passableObjects: {fileID: 1777215294}
   _blockingObjects: {fileID: 1459725950}
   _boxType: {fileID: 11400000, guid: fa6f35355a8644e4da29af8d7fc5683e, type: 2}
-  _targetType: {fileID: 0}
+  _targetType: {fileID: 11400000, guid: e6ad19a2b9e0b244c9275212fa2ae734, type: 2}
   _tileData:
   - Tile: {fileID: 11400000, guid: da35aff12174bb748b2f2eac2d11529b, type: 2}
     Type: {fileID: 11400000, guid: fa6f35355a8644e4da29af8d7fc5683e, type: 2}
@@ -178,8 +178,8 @@ MonoBehaviour:
   - Tile: {fileID: 11400000, guid: 93c51edf58f53e847ad7ca953552c4f3, type: 2}
     Type: {fileID: 11400000, guid: e6ad19a2b9e0b244c9275212fa2ae734, type: 2}
     Class: {fileID: 11400000, guid: e5bc750a16cf07a4485a17da456a0e4f, type: 2}
-  _targets: {fileID: 0}
-  _correctBoxes: {fileID: 0}
+  _targets: {fileID: 11400000, guid: 793eefa5ae76ae04886e95344da4759c, type: 2}
+  _matchingBoxes: {fileID: 11400000, guid: cae8236741ebe634b9fe303445168756, type: 2}
 --- !u!1 &256768273
 GameObject:
   m_ObjectHideFlags: 0

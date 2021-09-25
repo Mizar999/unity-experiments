@@ -21,22 +21,13 @@ public class MapManager : MonoBehaviour
     [SerializeField]
     private IntegerVariable _targets;
     [SerializeField]
-    private IntegerVariable _correctBoxes;
+    private IntegerVariable _matchingBoxes;
 
     private Dictionary<TileBase, TileData> _tileDataLookup;
 
     private void Awake()
     {
-        _targets.Value = 0;
-        _correctBoxes.Value = 0;
-
-        _tileDataLookup = new Dictionary<TileBase, TileData>();
-        foreach (var data in _tileData)
-        {
-            _tileDataLookup.Add(data.Tile, data);
-        }
-
-        CountAllTargets();
+        Initialize();
     }
 
     public TileData GetTileData(TileBase tile)
@@ -77,20 +68,59 @@ public class MapManager : MonoBehaviour
 
         _blockingObjects.SetTile(fromCell, null);
         _blockingObjects.SetTile(toCell, tile);
+
+        TileData data = GetTileData(tile);
+        if (data != null && data.Type == _boxType)
+        {
+            if (IsOnMatchingTarget(fromCell, data.Class))
+            {
+                --_matchingBoxes.Value;
+            }
+            if (IsOnMatchingTarget(toCell, data.Class))
+            {
+                ++_matchingBoxes.Value;
+            }
+            Debug.LogFormat("Boxes on target: {0}", _matchingBoxes.Value);
+        }
     }
 
-    private void CountAllTargets()
+    private void Initialize()
     {
-        TileData data;
+        _targets.Value = 0;
+        _matchingBoxes.Value = 0;
+
+        _tileDataLookup = new Dictionary<TileBase, TileData>();
+        foreach (var data in _tileData)
+        {
+            _tileDataLookup.Add(data.Tile, data);
+        }
+
+        TileData tileData;
         Vector3Int cell;
         foreach (var pos in _passableObjects.cellBounds.allPositionsWithin)
         {
             cell = new Vector3Int(pos.x, pos.y, pos.z);
-            data = GetTileData(_passableObjects.GetTile(cell));
-            if (data != null && data.Type == _targetType)
+            if (_passableObjects.HasTile(cell))
             {
-                ++_targets.Value;
+                tileData = GetTileData(_passableObjects.GetTile(cell));
+                if (tileData != null && tileData.Type == _targetType)
+                {
+                    ++_targets.Value;
+                }
             }
         }
+    }
+
+    private bool IsOnMatchingTarget(Vector3Int cell, ObjectClass objectClass)
+    {
+        if (_passableObjects.HasTile(cell))
+        {
+            TileData data = GetTileData(_passableObjects.GetTile(cell));
+            if (data != null && data.Type == _targetType)
+            {
+                return data.Class == objectClass;
+            }
+        }
+        return false;
     }
 }
